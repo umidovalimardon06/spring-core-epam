@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <beans>
-        <bean id="service" class="springcontainer.xml.service.Service"/>
+        <bean id="service" class="springcontainer.java.service.Service"/>
     </beans>
 
 </beans>

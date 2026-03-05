@@ -1,6 +1,9 @@
-package springcontainer.xml.service;
+package springcontainer.annotation.service;
 
-public class Service implements MyService {
+import org.springframework.stereotype.Service;
+
+@Service
+public class ServiceImp implements MyService {
     @Override
     public void doStuff() {
         System.out.println("Class implementing MyService(i):");

@@ -1,6 +1,6 @@
-package springcontainer.xml.service;
+package springcontainer.java.service;
 
-public class Service implements MyService {
+public class Service implements MyService{
     @Override
     public void doStuff() {
         System.out.println("Class implementing MyService(i):");
