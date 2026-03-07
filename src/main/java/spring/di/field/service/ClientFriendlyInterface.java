@@ -1,9 +1,8 @@
-package spring.di.service;
+package spring.di.field.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
-import spring.di.service.interfaces.SortingAlgorithm;
+import spring.di.field.service.interfaces.SortingAlgorithm;
 
 @Component
 public class ClientFriendlyInterface {

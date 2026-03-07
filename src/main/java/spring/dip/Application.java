@@ -1,12 +1,13 @@
 package spring.dip;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import spring.di.config.containerMetadataConfig;
-import spring.di.service.ClientFriendlyInterface;
+import spring.dip.service.ClientFriendlyInterface;
+import spring.dip.service.implementations.QuickSortingAlgorithm;
 
 public class Application {
     public static void main(String[] args) {
+        ClientFriendlyInterface friendlyInterface =
+                new ClientFriendlyInterface(new QuickSortingAlgorithm());
 
+        System.out.println(friendlyInterface.callSort());
     }
 }

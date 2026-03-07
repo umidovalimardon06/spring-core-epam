@@ -1,9 +1,9 @@
-package spring.di;
+package spring.di.field;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import spring.di.config.containerMetadataConfig;
-import spring.di.service.ClientFriendlyInterface;
+import spring.di.field.config.containerMetadataConfig;
+import spring.di.field.service.ClientFriendlyInterface;
 
 public class Application {
     public static void main(String[] args) {

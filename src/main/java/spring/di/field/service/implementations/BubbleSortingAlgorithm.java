@@ -1,8 +1,8 @@
-package spring.di.service.implementations;
+package spring.di.field.service.implementations;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
-import spring.di.service.interfaces.SortingAlgorithm;
+import spring.di.field.service.interfaces.SortingAlgorithm;
 
 @Component
 @Primary
